@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "amnesty";
+  src: url("../font/amnesty.woff?ver=0925") format("woff");
+  font-weight: normal;
+  font-style: normal
+}
+
+.siteicon {
+  font-family: "amnesty";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none !important;
+  transition: color .1s ease-in 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: -1px
+}
+
+.siteicon-logo:before {
+  content: "\e000"
+}
+
+.dashicons-logo:before {
+  font-family: "amnesty";
+  content: "\e000"
+}
