@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Serif+KR|Oswald:300,400,500,700");
 
 ::selection {
-    background: #00f !important;
-    color: #000 !important
+    background: #6a9cfd;
+    color: #000;
 }
 
 ::-moz-selection {
-    background: #00f !important;
-    color: #000 !important
+    background: #6a9cfd;
+    color: #000;
 }
 
 html, body {
@@ -47,7 +47,7 @@ body.page-php #main {
 }
 
 html {
-    -webkit-tap-highlight-color: rgba(0, 0, 255)
+    -webkit-tap-highlight-color: #6a9cfd
 }
 
 body, .font-sans {
@@ -120,7 +120,7 @@ a:focus, button:focus {
 }
 
 .text-color-primary {
-    color: #0000ff !important
+    color: #6a9cfd !important
 }
 
 .message-box, .error-box, .box-default, .box-light, .box-dark {
@@ -248,16 +248,16 @@ blockquote > p:last-child:not(:first-child) > em {
 }
 
 .btn-primaryneon {
-    color: #0000ff;
-    border-color: #0000ff;
+    color: #6a9cfd;
+    border-color: #6a9cfd;
     background-color: transparent;
     transition: background-color .2s
 }
 
 .btn-primaryneon:hover, .btn-primaryneon:focus, .btn-primaryneon:active {
     color: #000;
-    border-color: #0000ff;
-    background-color: #0000ff
+    border-color: #6a9cfd;
+    background-color: #6a9cfd;
 }
 
 .btn-outline {
@@ -274,7 +274,7 @@ blockquote > p:last-child:not(:first-child) > em {
 form.processing [type=submit].btn-success, form.processing [type=submit].btn-whiteneon, form.processing [type=submit].btn-primaryneon {
     color: #000;
     border-color: transparent;
-    background-color: #0000ff;
+    background-color: #6a9cfd;
     background-image: linear-gradient(-45deg, rgba(0, 0, 0, 0.2) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.2) 75%, transparent 75%, transparent)
 }
 
@@ -401,7 +401,7 @@ form.processing [type=submit].btn-success, form.processing [type=submit].btn-whi
 }
 
 .panel-group .panel.unfold .panel-heading .panel-title {
-    color: #0000ff
+    color: #6a9cfd
 }
 
 .panel-group .panel-heading:after {
@@ -488,7 +488,7 @@ form.processing [type=submit].btn-success, form.processing [type=submit].btn-whi
 }
 
 .table > tbody > tr.sticky > * {
-    background: #0000ff;
+    background: #6a9cfd;
     border-top-color: #CFCF00
 }
 
@@ -905,7 +905,7 @@ select.btn {
 }
 
 .list-ui .list > li.sticky {
-    background: #0000ff !important
+    background: #6a9cfd !important
 }
 
 .list-ui .list .row-title {
@@ -964,7 +964,7 @@ select.btn {
 }
 
 .label-success {
-    background-color: #0000ff;
+    background-color: #6a9cfd;
     color: #000
 }
 
@@ -1170,7 +1170,7 @@ select.btn {
     top: 0;
     width: 156px;
     height: 66px;
-    background: #00f url(../img/logo.png) no-repeat;
+    background: #6a9cfd url(../img/logo.png) no-repeat;
     background-size: 100%
 }
 
@@ -1191,7 +1191,7 @@ select.btn {
     top: 0;
     right: 100%;
     height: 100%;
-    background: #0000ff;
+    background: #6a9cfd;
     transition: all ease-in-out .2s;
     opacity: 0
 }
@@ -1207,7 +1207,7 @@ select.btn {
 }
 
 #header .menus > li.menu-item-14710 a {
-    background-color: rgba(64, 64, 255)
+    background-color: #6a9cfd;
 }
 
 #header .menus > li:last-child > a {
@@ -1260,7 +1260,7 @@ select.btn {
 }
 
 #header .menus .sub-menu a:hover {
-    color: #0000ff;
+    color: #6a9cfd;
     background-color: #222
 }
 
@@ -1307,7 +1307,7 @@ body.transparent-header #header {
     right: 0;
     top: 0;
     height: 4px;
-    background: #0000ff
+    background: #6a9cfd;
 }
 
 #header .menus .sub-menu li.current-menu-item a:before {
@@ -1317,7 +1317,7 @@ body.transparent-header #header {
     top: 0;
     bottom: 0;
     width: 4px;
-    background: #0000ff
+    background: #6a9cfd;
 }
 
 #header-m, #header-m .logo, #header-m .aside button, #menu-m .menu-hd, #menu-m .menu-hd button, .header-m-space {
@@ -1484,7 +1484,7 @@ body.header-up:not(.no-header-up) #header-m {
     display: block;
     width: 88px;
     height: 40px;
-    background: #0000ff;
+    background: #6a9cfd;
     left: 20px;
     top: 11px
 }
@@ -1519,7 +1519,7 @@ body.header-up:not(.no-header-up) #header-m {
     bottom: 0;
     top: 0;
     width: 4px;
-    background: #0000ff
+    background: #6a9cfd;
 }
 
 #menu-m .menus .sub-menu > li.current-menu-item a:before {
@@ -1529,7 +1529,7 @@ body.header-up:not(.no-header-up) #header-m {
     top: 0;
     bottom: 0;
     width: 4px;
-    background: #0000ff;
+    background: #6a9cfd;
     opacity: .5
 }
 
@@ -1647,7 +1647,7 @@ body.header-up:not(.no-header-up) #header-m {
 }
 
 #cookie-agree a {
-    color: #0000ff
+    color: #6a9cfd;
 }
 
 #cookie-agree button {
@@ -1992,7 +1992,7 @@ body.header-up:not(.no-header-up) #header-m {
     height: 100%;
     bottom: -150%;
     left: 0;
-    background: rgba(0, 0, 255);
+    background: #6a9cfd;
     transition: bottom ease-in-out .2s;
     z-index: 1
 }
@@ -2095,7 +2095,7 @@ body.header-up:not(.no-header-up) #header-m {
     right: 0;
     top: 0;
     bottom: 0;
-    background: #0000ff;
+    background: #6a9cfd;
     opacity: 0;
     transition: opacity .2s
 }
@@ -2322,7 +2322,7 @@ a.poster-item:hover .poster-caption {
 }
 
 .bg-primary {
-    background: #0000ff;
+    background: #6a9cfd;
     color: #000
 }
 
@@ -2332,7 +2332,7 @@ a.poster-item:hover .poster-caption {
 }
 
 .primary-bg-text {
-    background: #0000ff;
+    background: #6a9cfd;
     color: #000
 }
 
@@ -2672,8 +2672,8 @@ hr.amnesty-hr-sm:after {
 
 .mainbanner .title > span.title-primary {
     font-weight: bold;
-    background: #0000ff;
-    box-shadow: 15px 0 0 #0000ff, -15px 0 0 #0000ff
+    background: #6a9cfd;
+    box-shadow: 15px 0 0 #6a9cfd, -15px 0 0 #6a9cfd
 }
 
 .mainbanner .tag {
@@ -2686,7 +2686,7 @@ hr.amnesty-hr-sm:after {
 .mainbanner .tag > span {
     display: inline-block;
     padding: 10px 20px;
-    background: #0000ff;
+    background: #6a9cfd;
     color: #222;
     font-size: 18px
 }
@@ -2856,7 +2856,7 @@ hr.amnesty-hr-sm:after {
 }
 
 #pagetop-banner .closer:hover {
-    background: #0000ff;
+    background: #6a9cfd;
     color: #000
 }
 
@@ -2936,8 +2936,8 @@ body.screenbottom-banner-up #screenbottom-banner {
 }
 
 .section .title strong > em {
-    background: #0000ff;
-    box-shadow: 10px 0 0 #0000ff, -10px 0 0 #0000ff
+    background: #6a9cfd;
+    box-shadow: 10px 0 0 #6a9cfd, -10px 0 0 #6a9cfd
 }
 
 .section .subtitle {
@@ -3184,7 +3184,7 @@ body.screenbottom-banner-up #screenbottom-banner {
 }
 
 .oa-goal-counter-embed .track .bar {
-    background: #0000ff;
+    background: #6a9cfd;
     height: 100%;
     width: 50%
 }
@@ -3195,7 +3195,7 @@ body.screenbottom-banner-up #screenbottom-banner {
 
 .oa-goal-counter-embed .current em {
     font-weight: bold;
-    color: #0000ff;
+    color: #6a9cfd;
     font-size: 24px
 }
 
@@ -3237,7 +3237,7 @@ body.screenbottom-banner-up #screenbottom-banner {
 }
 
 .oa-goal-counter-card .track .bar {
-    background: #0000ff;
+    background: #6a9cfd;
     height: 100%;
     width: 50%
 }
@@ -3252,7 +3252,7 @@ body.screenbottom-banner-up #screenbottom-banner {
 
 .oa-goal-counter-card .current em {
     font-weight: bold;
-    color: #0000ff;
+    color: #6a9cfd;
     font-size: 24px;
     display: inline-block;
     vertical-align: middle;
@@ -3704,7 +3704,7 @@ body.screenbottom-banner-up #screenbottom-banner {
 }
 
 .involve-open-list .item:hover .caption {
-    background: #0000ff
+    background: #6a9cfd
 }
 
 .involve-open-list .item:hover .caption * {
@@ -3898,7 +3898,7 @@ body.screenbottom-banner-up #screenbottom-banner {
 }
 
 .issue-section.issue-section-0 {
-    background: #0000ff
+    background: #6a9cfd
 }
 
 .issue-section.issue-section-0 .subtitle {
@@ -3918,7 +3918,7 @@ body.screenbottom-banner-up #screenbottom-banner {
     right: 0;
     top: -150px;
     height: 150px;
-    background: #0000ff
+    background: #6a9cfd
 }
 
 .issue-section.issue-section-1 .container-fluid {
@@ -3975,12 +3975,12 @@ body.screenbottom-banner-up #screenbottom-banner {
 .issue-section.issue-section-4 .items .subtitle {
     max-width: 250px;
     padding-left: 20px;
-    border-left: 2px solid #0000ff;
+    border-left: 2px solid #6a9cfd;
     color: #999
 }
 
 .issue-section.issue-section-4 .items .stats {
-    color: #0000ff;
+    color: #6a9cfd;
     font-size: 18px
 }
 
@@ -4153,7 +4153,7 @@ body.screenbottom-banner-up #screenbottom-banner {
     display: flex;
     height: 120px;
     align-items: center;
-    background: #0000ff
+    background: #6a9cfd
 }
 
 #whatwedo #badge .hd img {
@@ -4207,7 +4207,7 @@ body.screenbottom-banner-up #screenbottom-banner {
     z-index: 100;
     display: flex;
     justify-content: center;
-    background: #0000ff;
+    background: #6a9cfd;
     color: #000;
     text-decoration: none !important;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2)
@@ -4251,7 +4251,7 @@ body.screenbottom-banner-up #screenbottom-banner {
 
 #whatwedo .section-message .elm1 {
     position: relative;
-    background: #0000ff;
+    background: #6a9cfd;
     z-index: 2
 }
 
@@ -4274,7 +4274,7 @@ body.screenbottom-banner-up #screenbottom-banner {
     left: 0;
     right: 0;
     height: 100%;
-    background: #0000ff;
+    background: #6a9cfd;
     transform: translateY(-50%)
 }
 
@@ -4334,7 +4334,7 @@ body.screenbottom-banner-up #screenbottom-banner {
 }
 
 #whatwedo .section-asis .elm2 .data {
-    color: #0000ff
+    color: #6a9cfd
 }
 
 #whatwedo .section-asis .elm2 .data .counter {
@@ -4367,7 +4367,7 @@ body.screenbottom-banner-up #screenbottom-banner {
     font-size: 16px;
     letter-spacing: -.5px;
     color: white;
-    border-left: 2px solid #0000ff;
+    border-left: 2px solid #6a9cfd;
     padding-left: 1em;
     margin: 10px 0 0 5px;
     word-break: keep-all
@@ -4454,7 +4454,7 @@ body.screenbottom-banner-up #screenbottom-banner {
 }
 
 #whatwedo .section-tobe {
-    background: #0000ff
+    background: #6a9cfd
 }
 
 #whatwedo .section-tobe .container-fluid {
@@ -4488,7 +4488,7 @@ body.screenbottom-banner-up #screenbottom-banner {
 }
 
 #whatwedo .section-tobe .slider-holder .captions .bx-pager-default a:hover:before, #whatwedo .section-tobe .slider-holder .captions .bx-pager-default a.active:before {
-    background: #0000ff
+    background: #6a9cfd
 }
 
 #whatwedo .section-opinion {
@@ -4565,7 +4565,7 @@ body.screenbottom-banner-up #screenbottom-banner {
 }
 
 #whatwedo .section-goodnews .elm2 {
-    background: #0000ff;
+    background: #6a9cfd;
     position: relative
 }
 
@@ -4624,7 +4624,7 @@ body.screenbottom-banner-up #screenbottom-banner {
 
 #whatwedo .section-donation .donate-form .elm1 {
     padding: 50px;
-    background: #0000ff;
+    background: #6a9cfd;
     width: 42%;
     text-align: left
 }
@@ -4977,12 +4977,12 @@ body.screenbottom-banner-up #screenbottom-banner {
 }
 
 .donate-form-default .donate-form-nav li.active > a {
-    background: #0000ff;
+    background: #6a9cfd;
     color: inherit
 }
 
 .donate-form-default .form-title {
-    background: #0000ff;
+    background: #6a9cfd;
     font-size: 18px;
     padding: 35px 0 25px;
     margin: 0
@@ -5153,7 +5153,7 @@ body.screenbottom-banner-up #screenbottom-banner {
 }
 
 #donate-form-sticky .desktop-elm .donate-form-nav li.active > a {
-    background: #0000ff;
+    background: #6a9cfd;
     color: inherit
 }
 
@@ -5174,7 +5174,7 @@ body.screenbottom-banner-up #screenbottom-banner {
 }
 
 #donate-form-sticky .desktop-elm .form-title {
-    background: #0000ff;
+    background: #6a9cfd;
     font-size: 18px;
     padding: 0 30px;
     margin: 0;
@@ -5264,7 +5264,7 @@ body.screenbottom-banner-up #screenbottom-banner {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #0000ff !important;
+    background: #6a9cfd !important;
     border: none;
     height: 60px;
     padding: 0;
@@ -5582,7 +5582,7 @@ body.single-form .hentry .entry-header .post-date {
 
 #page-60years header {
     text-align: center;
-    background: #0000ff
+    background: #6a9cfd
 }
 
 #page-60years header h1 {
