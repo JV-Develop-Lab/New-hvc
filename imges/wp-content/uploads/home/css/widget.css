@@ -1,0 +1,14 @@
+.widget {
+  position: relative;
+  line-height: 1.4
+}
+
+.widget .widget-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 15px 0
+}
+
+.widget .widget-inside {
+  position: relative
+}
